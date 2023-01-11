@@ -1,0 +1,83 @@
+CRITICAL - 2022-12-19 03:21:32 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(50): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:21:33 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(50): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:26:16 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(50): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:35:57 --> Invalid file: siswa.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa', [], true)
+ 3 APPPATH\Controllers\Siswa.php(50): view('siswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:42:17 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Siswa.php on line 65.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:42:42 --> Undefined variable $data
+in APPPATH\Controllers\Siswa.php on line 59.
+ 1 APPPATH\Controllers\Siswa.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Siswa.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:43:16 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'SYSTEMPATH\\Database\\Query.php', 329)
+ 2 SYSTEMPATH\Database\Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `siswa` (`judul`, `siswa`) VALUES (:judul:, :siswa:)', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(86): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 7 SYSTEMPATH\Database\BaseConnection.php(622): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 8 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `siswa` (`judul`, `siswa`) VALUES (:judul:, :siswa:)', [...], false)
+ 9 APPPATH\Models\M_siswa.php(21): CodeIgniter\Database\BaseBuilder->insert([...])
+10 APPPATH\Controllers\Siswa.php(59): App\Models\M_siswa->tambah([...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->tambah()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 03:44:43 --> syntax error, unexpected token "}", expecting ";" or "{"
+in APPPATH\Controllers\Siswa.php on line 29.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa/tambah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa/tambah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

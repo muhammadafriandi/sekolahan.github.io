@@ -1,0 +1,779 @@
+CRITICAL - 2023-01-05 02:51:37 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('1672908697_592ee517105358b2209a.png://localhost:8080/assets/img/profile/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('1672908697_592ee517105358b2209a.png://localhost:8080/assets/img/profile/')
+ 4 APPPATH\Controllers\Guru.php(83): CodeIgniter\HTTP\Files\UploadedFile->move('1672908697_592ee517105358b2209a.png://localhost:8080/assets/img/profile/')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:54:25 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('1672908865_31cbbc587ff1a25e908d.png://localhost:8080/assets/img/profile/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('1672908865_31cbbc587ff1a25e908d.png://localhost:8080/assets/img/profile/')
+ 4 APPPATH\Controllers\Guru.php(83): CodeIgniter\HTTP\Files\UploadedFile->move('1672908865_31cbbc587ff1a25e908d.png://localhost:8080/assets/img/profile/')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:32:09 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:33:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:33:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:33:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:42:09 --> Undefined variable $data
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:42:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:43:08 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:44:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:46:45 --> Call to a member function row() on null
+in APPPATH\Controllers\Guru.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:48:27 --> syntax error, unexpected variable "$succes", expecting "]"
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:48:36 --> syntax error, unexpected variable "$this", expecting "]"
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:48:49 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Guru.php on line 115.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:49:30 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Guru.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:50:11 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:50:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 115.
+ 1 APPPATH\Controllers\Guru.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:51:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:59:52 --> Undefined array key "gambar"
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:00:05 --> Attempt to read property "gambar" on array
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on array', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:02:26 --> Attempt to read property "gambar" on array
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on array', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:02:29 --> Attempt to read property "gambar" on array
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on array', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:02:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:03:49 --> Call to a member function getRow() on null
+in APPPATH\Controllers\Guru.php on line 120.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:04:01 --> Undefined variable $model
+in APPPATH\Controllers\Guru.php on line 121.
+ 1 APPPATH\Controllers\Guru.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\Guru.php', 121)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:05:04 --> Attempt to read property "gambar" on null
+in APPPATH\Controllers\Guru.php on line 122.
+ 1 APPPATH\Controllers\Guru.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on null', 'APPPATH\\Controllers\\Guru.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:05:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 122.
+ 1 APPPATH\Controllers\Guru.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:07:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:08:07 --> syntax error, unexpected identifier "session", expecting "function" or "const"
+in APPPATH\Controllers\Guru.php on line 120.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:08:15 --> unlink(C:\xampp\htdocs\sn-ci4\public\assets/img/profile/19): No such file or directory
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\sn-ci4\\public\\assets/img/profile/19): No such file or directory', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 APPPATH\Controllers\Guru.php(117): unlink('FCPATH\\assets/img/profile/19')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:20:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:20:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:25:58 --> Undefined array key "gambar"
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:00:50 --> Undefined variable $img
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:00:51 --> Undefined variable $img
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:01:15 --> Undefined array key "gambar"
+in APPPATH\Controllers\Guru.php on line 118.
+ 1 APPPATH\Controllers\Guru.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'APPPATH\\Controllers\\Guru.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:01:43 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Guru.php on line 108.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/19')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/19')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/19')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:01:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:02:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:02:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:02:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 117.
+ 1 APPPATH\Controllers\Guru.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:02:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:02:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:03:44 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '19')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('19')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:04:01 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '19')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('19')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:04:08 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '19')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('19')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:04:10 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '19')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('19')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('19')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:05:14 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '18')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('18')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('18')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:05:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '16')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('16')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('16')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:29:11 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '17')
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->find('17')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:32:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('17')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:32:54 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(17, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(17)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:33:49 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(17, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(17)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('17')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:34:58 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(20, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(20)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('20')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:40:52 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(22, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(22)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:43:20 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(22, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(22)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:43:31 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(22, 0)
+ 3 APPPATH\Controllers\Guru.php(111): CodeIgniter\BaseModel->findAll(22)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:44:02 --> Call to a member function getRowArray() on null
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:44:12 --> Call to a member function getRow() on null
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:44:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 116.
+ 1 APPPATH\Controllers\Guru.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:44:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 115.
+ 1 APPPATH\Controllers\Guru.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:44:49 --> Array to string conversion
+in APPPATH\Controllers\Guru.php on line 115.
+ 1 APPPATH\Controllers\Guru.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Guru.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:45:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 APPPATH\Controllers\Guru.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('22')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 20:58:11 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:04:50 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:05:48 --> Call to undefined method App\Models\M_Guru::getRowArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getRowArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:06:17 --> Call to undefined method App\Models\M_Guru::getRowArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getRowArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:06:21 --> Call to undefined method App\Models\M_Guru::getRowArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getRowArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:06:38 --> Call to undefined method App\Models\M_Guru::getRow
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getRow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:06:55 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:07:11 --> Undefined array key "gambar"
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 APPPATH\Controllers\Guru.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gambar"', 'APPPATH\\Controllers\\Guru.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:07:22 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:08:48 --> syntax error, unexpected identifier "unlink"
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('guru/hapus/24')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('guru/hapus/24')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('guru/hapus/24')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:09:00 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Guru.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:09:29 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:10:33 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:10:52 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:11:27 --> Call to undefined method App\Models\M_Guru::getResultArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getResultArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:11:35 --> Call to undefined method App\Models\M_Guru::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Guru.php(110): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:11:45 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:12:23 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:12:32 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:12:42 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:12:49 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '24')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('24')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('24')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:21:53 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '27')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('27')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:22:11 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '27')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('27')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:23:15 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '27')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('27')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:23:22 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 183
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(183): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '27')
+ 3 APPPATH\Controllers\Guru.php(110): CodeIgniter\BaseModel->find('27')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:24:15 --> unlink(./assets/img/profile1672973631_ed8c24f7f9ae78330a2f.jpg): No such file or directory
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./assets/img/profile1672973631_ed8c24f7f9ae78330a2f.jpg): No such file or directory', 'APPPATH\\Controllers\\Guru.php', 113)
+ 2 APPPATH\Controllers\Guru.php(113): unlink('./assets/img/profile1672973631_ed8c24f7f9ae78330a2f.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 21:24:31 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Guru.php on line 113.
+ 1 APPPATH\Controllers\Guru.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Guru.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Guru->hapus('27')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

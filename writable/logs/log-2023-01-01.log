@@ -1,0 +1,779 @@
+CRITICAL - 2023-01-01 01:34:46 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:35:24 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:37:13 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:37:33 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:40:41 --> Undefined variable $builder
+in APPPATH\Views\Siswa\index.php on line 46.
+ 1 APPPATH\Views\Siswa\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $builder', 'APPPATH\\Views\\Siswa\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:44:25 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:45:00 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:47:13 --> Undefined property: App\Controllers\Siswa::$model
+in APPPATH\Controllers\Siswa.php on line 19.
+ 1 APPPATH\Controllers\Siswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Siswa::$model', 'APPPATH\\Controllers\\Siswa.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:48:30 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Siswa.php on line 19.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:48:57 --> Undefined property: App\Controllers\Siswa::$builder
+in APPPATH\Controllers\Siswa.php on line 19.
+ 1 APPPATH\Controllers\Siswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Siswa::$builder', 'APPPATH\\Controllers\\Siswa.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:49:15 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:50:29 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Siswa.php on line 18.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:50:36 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Siswa.php on line 18.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:50:39 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Siswa.php on line 18.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:50:45 --> Undefined variable $judul
+in APPPATH\Views\templates\v_header.php on line 12.
+ 1 APPPATH\Views\templates\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\templates\\v_header.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\v_header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/v_header', [], true)
+ 5 APPPATH\Controllers\Siswa.php(20): view('templates/v_header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:50:56 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:53:53 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:54:50 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 01:57:27 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:26:33 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:27:16 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:27:36 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:28:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Controllers\Siswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:28:37 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:28:48 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:28:57 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:29:32 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:33:02 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\sn-ci4\system\Model.php on line 224
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(224): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Siswa.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:33:15 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:36:02 --> Attempt to read property "nisn" on array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nisn" on array', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:36:18 --> Attempt to read property "id_group" on array
+in APPPATH\Views\Siswa\index.php on line 52.
+ 1 APPPATH\Views\Siswa\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_group" on array', 'APPPATH\\Views\\Siswa\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 02:44:54 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:20:29 --> Unmatched ')'
+in APPPATH\Views\Siswa\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:22:52 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:23:15 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:24:03 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:24:39 --> Cannot use object of type mysqli as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 03:24:53 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:03:25 --> Undefined property: mysqli::$nisn
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 APPPATH\Views\Siswa\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nisn', 'APPPATH\\Views\\Siswa\\index.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:03:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Siswa\index.php on line 50.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:04:03 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Siswa\index.php on line 49.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 4 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:04:10 --> Attempt to read property "id_group" on array
+in APPPATH\Views\Siswa\index.php on line 52.
+ 1 APPPATH\Views\Siswa\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_group" on array', 'APPPATH\\Views\\Siswa\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Siswa\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('siswa/index', [], true)
+ 5 APPPATH\Controllers\Siswa.php(24): view('siswa/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:31:17 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Models\M_siswa.php on line 34.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\M_siswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_siswa')
+ 3 APPPATH\Controllers\Siswa.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_siswa')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Siswa->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:33:44 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 06:39:47 --> Cannot redeclare App\Controllers\Siswa::hapus()
+in APPPATH\Controllers\Siswa.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-01 06:40:46 --> Cannot redeclare App\Controllers\Siswa::hapus()
+in APPPATH\Controllers\Siswa.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-01 07:03:43 --> Undefined variable $val
+in APPPATH\Controllers\Siswa.php on line 102.
+ 1 APPPATH\Controllers\Siswa.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'APPPATH\\Controllers\\Siswa.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:05:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(132): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:11:42 --> Undefined variable $id
+in APPPATH\Controllers\Siswa.php on line 84.
+ 1 APPPATH\Controllers\Siswa.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Siswa.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:12:09 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:12:14 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:19:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:20:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 07:23:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 18:59:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:02:33 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:03:01 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:07:05 --> Undefined variable $id
+in APPPATH\Controllers\Siswa.php on line 84.
+ 1 APPPATH\Controllers\Siswa.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Siswa.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:07:19 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:23:31 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:24:18 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:24:27 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:24:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:25:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(132): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:25:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Siswa.php on line 86.
+ 1 APPPATH\Controllers\Siswa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Siswa.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:29:51 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Siswa.php on line 112.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa/ubah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa/ubah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa/ubah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:30:30 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(103): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:31:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:37:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:37:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:44:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:45:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:54:26 --> Undefined property: App\Controllers\Siswa::$input
+in APPPATH\Controllers\Siswa.php on line 83.
+ 1 APPPATH\Controllers\Siswa.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Siswa::$input', 'APPPATH\\Controllers\\Siswa.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:54:43 --> Undefined property: App\Controllers\Siswa::$input
+in APPPATH\Controllers\Siswa.php on line 83.
+ 1 APPPATH\Controllers\Siswa.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Siswa::$input', 'APPPATH\\Controllers\\Siswa.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 19:55:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1598.
+ 1 SYSTEMPATH\BaseModel.php(1598): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(853): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Siswa.php(115): CodeIgniter\Model->update([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:07:00 --> Undefined variable $id
+in APPPATH\Controllers\Siswa.php on line 83.
+ 1 APPPATH\Controllers\Siswa.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Siswa.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:07:12 --> Undefined variable $id
+in APPPATH\Controllers\Siswa.php on line 83.
+ 1 APPPATH\Controllers\Siswa.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Siswa.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:10:01 --> Undefined variable $id
+in APPPATH\Controllers\Siswa.php on line 83.
+ 1 APPPATH\Controllers\Siswa.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Siswa.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:10:15 --> Too few arguments to function App\Controllers\Siswa::ubah(), 0 passed in C:\xampp\htdocs\sn-ci4\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Siswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Siswa->ubah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:13:32 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Siswa.php on line 97.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa/ubah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa/ubah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa/ubah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-01 20:18:40 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Siswa.php on line 97.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('siswa/ubah')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('siswa/ubah')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('siswa/ubah')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
